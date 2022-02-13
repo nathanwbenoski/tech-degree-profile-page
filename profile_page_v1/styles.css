@@ -18,14 +18,15 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: steelblue;
+  
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #11191C;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +44,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: whitesmoke;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,12 +53,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #ffffff
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/laos.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,36 +71,38 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgb(0, 0, 0);
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(15deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: papayawhip;
+  color: #11191C;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: rgb(109, 96, 96);
+  color: rgb(245, 221, 6);
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
+  min-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid #9ca1aa;
+  border-right: 4px solid #9ca1aa;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #8798BB;
 }
 
 ul.skills {
@@ -110,14 +113,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #755174;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #802c4c;
 }
 
 footer {
@@ -151,12 +154,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
